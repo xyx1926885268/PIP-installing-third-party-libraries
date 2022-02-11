@@ -8,7 +8,7 @@
 用os库执行os.system()方法，for循环遍历所有需要安装的库，传递给os.system()进行安装。
 #### 安装教程
 
-建议在cmd命令窗口以管理员权限运行该文件
+建议在cmd命令窗口以管理员权限运行文件：Install-third-party-library.py
 
 #### 使用说明
 1.先安装os库,否则无法执行
