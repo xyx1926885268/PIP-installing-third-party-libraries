@@ -11,7 +11,7 @@
 建议在cmd命令窗口以管理员权限运行文件：Install-third-party-library.py
 
 #### 使用说明
-1.先安装os库,否则无法执行
+1.先安装os库,否则无法执行:
     pip install os
 2.pip 安装有一定的失败概率，如果无法用pip 安装请先去下载.whl文件再进行pip离线安装
 安装方法：
