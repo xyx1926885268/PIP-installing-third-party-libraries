@@ -1,36 +1,17 @@
-# pip批量安装第三方库
+#PIP bulk installation third-party library
 
 #### Description
-批量安装第三方库
+pip bulk install third-party library
 
 #### Software Architecture
-Software architecture description
+Software architecture description:use the os library to execute the os.system() method,for loop through all the libraries that need to be installed,pass it to os.system() for installation.
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
+1.Install the os library first, otherwise you can not perform:pip install os
+2.It is recommended to run files at the cmd command window: install-third-party-library.py
 #### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. Install the OS library first, otherwise it can not install successufl:pip install os
+2.Pip installation has a certain failed probability, if you can't use the PIP installation, please download. WHL file and then make PIP offline installation installation method: First search online and download you Third-party library: URL https://pypi.org/project/ 
+Installing WHL Package: PIP Install **. WHL (Prerequisite is to install PIP and WHEEL) 
+Install tar.gz package: CD to decompression path, Python Setup .py install (installation PIP and WHEEL can refer to this method)
