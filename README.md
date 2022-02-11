@@ -1,37 +1,20 @@
 # pip批量安装第三方库
 
 #### 介绍
-批量安装第三方库
+批量安装python第三方库
 
 #### 软件架构
-软件架构说明
-
-
+软件架构说明:
+用os库执行os.system()方法，for循环遍历所有需要安装的库，传递给os.system()进行安装。
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+建议在cmd命令窗口以管理员权限运行该文件
 
 #### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.先安装os库,否则无法执行
+    pip install os
+2.pip 安装有一定的失败概率，如果无法用pip 安装请先去下载.whl文件再进行pip离线安装
+安装方法：
+首先在线搜索并下载你需要的第三方库：网址https://pypi.org/project/
+安装whl包： pip install  **.whl（前提是要安装好pip和wheel）
+安装tar.gz包：cd到解压后路径,python setup.py install（安装pip和wheel都可以参照这种方法）
