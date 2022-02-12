@@ -1,7 +1,11 @@
 import os
 #需要安装的库
-libs = ["pyproj", "pyicu", "lief", "pymatgen", "dtaidistance", "aggdraw", "vispy", "jupyter",
-        "freetypepy", "numpy", "triangle", "pygit2", "pylibjpeg", "fonttools", "lightning",
+libs = ["xlwt","xlutils","xlrd","pypyodbc","random","json","pprint","func","saltstack",
+		"playbook","YAML","ansible","CGIHTTPRequestHandler","fabric","paramiko","pexpect",
+		"rrdtool","XlsxWriter","smtplib","filecmp","difflib","dnspython","IPy","IPython","SymPy",
+		"nose","nltk","Scapy","Pyglet","SciPy","Twisted","BeautifulSoup","SQLAlchemy","wxPython",
+		"tkinter","Scrapy","Requests.Kenneth","pyproj", "pyicu", "lief", "pymatgen", "dtaidistance",
+		"aggdraw", "vispy", "jupyter","freetypepy", "numpy", "triangle", "pygit2", "pylibjpeg", "fonttools", "lightning",
         "cx_freeze", "recordclass", "coverage", "pygresql", "mercurial", "pywinpty", "yt",
         "ets", "tifffile", "pillow", "cgohlke", "netpbmfile", "psdtagsoiffile", "sdtfile",
         "roifile", "cmapfile", "fcsfiles", "lfdfiles", "kerberos", "zeroc-ice", "caterva",
@@ -75,7 +79,7 @@ libs = ["pyproj", "pyicu", "lief", "pymatgen", "dtaidistance", "aggdraw", "vispy
         "cld", "py-fcm", "oursql", "py2exe", "pymutt", "carray", "llvmpy", "cgkit", "pymedia",
         "scipy-cluster", "scikits.scattpy", "scikits.samplerate", "scikits.ann", "pyxml",
         "pytst", "delny", "mysql-python", "htseq", "pyusb-ftdi", "silvercity", "steps",
-        "pysparse", "pyropes", "scikits.hydroclimpy", "sendkeys", "pydbg", "pyisapie"]
+        "pysparse", "pyropes", "scikits.hydroclimpy", "sendkeys", "pydbg", "pyisapie"]#可以先查找一下然后在执行，如果没有想要的库，请自行添加，本人将会不断的完善本项目
 #循环遍历安装
 try:
 	for lib in libs:
